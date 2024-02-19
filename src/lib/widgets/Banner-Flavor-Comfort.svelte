@@ -17,7 +17,7 @@
     <div class="paragraph-subHeading">Because when you’re at Kettle’e, you are exactly where you belong.</div>
   </div>
 </div>
-
+<!-- <local> -->
 <style lang="scss">
   @import "../../styles/theme.scss";
   @import "../../styles/breakpoints.scss";
