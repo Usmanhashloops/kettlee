@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+@import "./breakpoints.scss";
+
+$primary: #950103;
+$secondary: #691a17;
+$gold: #dfa400;
+$cream: #faf8f4;
+$black: #151f28;
+$primary-transparent: rgba(149, 1, 3, 0.5);
+
+$dark-grey-light: #323534;
+$dark-grey: #252827;
+$light-grey: #f4f6fc;
+$white: #ffffff;
+$almost-white: #f4f6fc;
+$soft-white: #f3f2f8;
+$container-max-width: 1200px;
+
+$body-left-margin: 5%;
+$body-right-margin: 5%;
+
+h1,
+h2,
+h3,
+h4,
+a,
+p {
+  font-family: "Open Sans", sans-serif;
+}
+
+h2 {
+  font-size: 50px;
+  margin-bottom: 0;
+  margin-top: 0;
+  @include for-size(tablet-landscape-down) {
+    text-align: center;
+    margin-left: 0;
+  }
+}
+
+p {
+  font-size: 20px;
+  margin: 0;
+  line-height: 2;
+}
+
+h4 {
+  font-size: 30px;
+  font-weight: 500;
+  margin: 0;
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  color: #000;
+  overflow-y: hidden !important;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
