@@ -8,11 +8,14 @@
     <div>
       <div class="heading">Check Out</div>
       <div class="headingCULTURE">Our Menu</div>
-      <a href="https://www.toasttab.com/kettle-e-1610-el-camino-real" class="ORDERNOWButton">ORDER NOW</a>
+      <a
+        href="https://www.toasttab.com/kettle-e-1610-el-camino-real"
+        class="ORDERNOWButton">ORDER NOW</a
+      >
     </div>
   </div>
 </div>
-<!-- <local -->
+
 <style lang="scss">
   @import "../../styles/theme.scss";
   @import "../../styles/breakpoints.scss";
@@ -122,7 +125,7 @@
     text-transform: uppercase;
     color: #131e27;
     font-weight: bold !important;
-    margin-top: -15px;
+    margin-top: -2px;
     @media only screen and (min-width: 300px) and (max-width: 400px) {
       font-size: 40px !important;
       margin-top: 5px !important;

@@ -16,6 +16,7 @@
   import BannerFlavorComfort from "$lib/widgets/Banner-Flavor-Comfort.svelte";
   import BannerCheckOutBg from "$lib/widgets/Banner-checkOut-Bg.svelte";
   import BannerReflectionBg from "$lib/widgets/Banner-Reflection-Bg.svelte";
+  import BannerRamadan from "$lib/widgets/Banner-Ramadan.svelte";
   import ImageSlider from "$lib/widgets/Image-Slider.svelte";
   let activeItem = sliderTabs[0].label;
   const tabChange = (e) => {
@@ -156,6 +157,7 @@
 	 -->
 
   <BannerImageBgFull imageBg="/homepage/kattleHome4x.png" />
+  <BannerRamadan />
   <BannerFlavorComfort imageBg="/homepage/Banner-Comfort.png" />
   <BannerReflectionBg
     imagess="/location/Kettle'e-6.png"
@@ -218,7 +220,12 @@
     z-index: 4;
     top: 0;
     left: 0;
-    background: linear-gradient(90deg, rgba(186, 156, 86, 0.4) 0%, rgba(186, 156, 86, 0.4) 40%, rgba(255, 255, 255, 1) 100%);
+    background: linear-gradient(
+      90deg,
+      rgba(186, 156, 86, 0.4) 0%,
+      rgba(186, 156, 86, 0.4) 40%,
+      rgba(255, 255, 255, 1) 100%
+    );
     transition: background-color 400ms ease-in-out;
 
     @include for-size(laptop-down) {

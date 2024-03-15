@@ -8,9 +8,14 @@
     <div class="column" />
     <div>
       <div class="heading">WHERE</div>
-      <div class="headingCOFFEE">CHAI COFFEE <span class="headingMeet"> MEETS </span></div>
+      <div class="headingCOFFEE">
+        CHAI COFFEE <span class="headingMeet"> MEETS </span>
+      </div>
       <div class="headingCULTURE">CULTURE</div>
-      <a href="https://www.toasttab.com/kettle-e-1610-el-camino-real" class="ORDERNOWButton">ORDER NOW</a>
+      <a
+        href="https://www.toasttab.com/kettle-e-1610-el-camino-real"
+        class="ORDERNOWButton">ORDER NOW</a
+      >
     </div>
   </div>
 </div>
@@ -168,17 +173,17 @@
     margin-top: -18px;
     @include for-size(phone-only) {
       font-size: 50px !important;
-      margin-top: -5px;
+      margin-top: 1px;
       color: #eeba28;
     }
     @include for-size(tablet-portrait-down) {
       font-size: 50px;
-      margin-top: -5px;
+      margin-top: 1px;
       color: #eeba28;
     }
     @include for-size(tablet-landscape-down) {
       font-size: 62px;
-      margin-top: -10px;
+      margin-top: 1px;
     }
     @media only screen and (min-width: 1201px) and (max-width: 1350px) {
       font-size: 90px;
@@ -203,6 +208,7 @@
     @include for-size(phone-only) {
       color: #eeba28;
       font-size: 26px;
+      margin-bottom: 1px;
     }
     @include for-size(tablet-portrait-down) {
       color: #eeba28;
