@@ -160,12 +160,12 @@
   <BannerRamadan />
   <BannerFlavorComfort imageBg="/homepage/Banner-Comfort.png" />
   <BannerReflectionBg
-    imagess="/location/Kettle'e-6.png"
-    image1=" /location/Kettle'e-1.png"
-    image2="/location/Kettle'e-2.png "
-    image3=" /location/Kettle'e-3.png"
-    image4="/location/Kettle'e-4.png"
-    image5="/location/Kettle'e-5.png"
+    imagess="/location/kettlee1.jpg"
+    image1=" /location/kettlee2.jpg"
+    image2="/location/kettlee3.jpg "
+    image3=" /location/kettlee4.jpg"
+    image4="/location/kettlee5.jpg"
+    image5="/location/kettlee6.jpg"
   />
   <BannerCheckOutBg imageBg="/homepage/BannerCheckOut.png" />
   <!-- <ImageSlider /> -->
