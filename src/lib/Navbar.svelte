@@ -10,7 +10,12 @@
     // console.log(e.target.innerHtml)
     console.log(e);
 
-    if (e.target.innerText === "CUPERTINO" || e.target.innerText === "MCA" || e.target.innerText === "SANTA CLARA" || e.target.innerText === "KETLEE") {
+    if (
+      e.target.innerText === "CUPERTINO" ||
+      e.target.innerText === "MCA" ||
+      e.target.innerText === "SANTA CLARA" ||
+      e.target.innerText === "KETLEE"
+    ) {
       console.log("yes");
       isActive = false;
     } else if (e.target.innerText !== "LOCATIONS") {
@@ -54,11 +59,19 @@
             style="animation: navlinkFade 1.5s ease forwards {index / 7 + 2.8}s"
             on:click={navToggle}
           >
-            <a href={navItem.url} class={navItem.label === "Locations" ? "dropbtn" : ""}>{navItem.label}</a>
+            <a
+              href={navItem.url}
+              class={navItem.label === "Locations" ? "dropbtn" : ""}
+              >{navItem.label}</a
+            >
             <div class="dropdown-content">
-              <a href="https://www.kababandcurrys.com/locations/SantaClara">Santa Clara</a>
-              <a href="https://www.kababandcurrys.com/locations/Cupertino">Cupertino</a>
-              <a href="https://www.kababandcurrys.com/locations/MCA">MCA</a>
+              <a href="https://www.kababandcurrys.com/locations/SantaClara"
+                >Santa Clara</a
+              >
+              <a href="https://www.kababandcurrys.com/locations/Cupertino"
+                >Cupertino</a
+              >
+              <!-- <a href="https://www.kababandcurrys.com/locations/MCA">MCA</a> -->
               <a href="/" on:click={navToggle}>Kettle'e</a>
               <!-- Added href and on:click attribute -->
               <!-- <a href="https://kababandcurrys.com/locations/SantaClara" on:click={navToggle}>Santa Clara</a>

@@ -4,7 +4,13 @@
   import CateringSection from "$lib/Catering-Section.svelte";
   import SliderTabs from "$lib/Slider-Tabs.svelte";
   import SliderGallery from "$lib/Slider-Gallery.svelte";
-  import { kncImages, sliderTabs, galleryImages, awardImages, infoArray } from "$lib/data";
+  import {
+    kncImages,
+    sliderTabs,
+    galleryImages,
+    awardImages,
+    infoArray,
+  } from "$lib/data";
   import PlainGallery from "$lib/widgets/Plain-Gallery.svelte";
   import HomepageViewMenus from "$lib/homepage/Homepage-View-Menus.svelte";
   import HomepageBannerAlt from "$lib/homepage/Homepage-Banner-Alt.svelte";
@@ -82,18 +88,25 @@
 {/each}
  -->
 
-<FullBannerCenterText h1={title} backgroundImageUrl={imageUrl} p={"data.description"} />
+<FullBannerCenterText
+  h1={title}
+  backgroundImageUrl={imageUrl}
+  p={"data.description"}
+/>
 
 <IconTextBanner
   heading="Where it all started"
   paragraphs={[
     "Starting from the humble roots of Kabab and Curry in Santa Clara, Kettle'e was started as a unique café dining experience, bringing South Asian culinary flavors to the contemporary western café scene of the Bay Area.",
     "Our restaurants have caught the attention of the patrons of the Bay Area as well as critics. We've become mainstays in the area, and the preferred dining spot for South Asian culinary delights.",
-    "Over the last decade our restaurants have witnessed a fast expansion, including new branches for Kabab and Curry at the MCA Mosque in Santa Clara, and a modern dining experience in Cupertino. Our bold flavors have wowed our patrons and the first stop for culinary adventurists.",
+    "Over the last decade our restaurants have witnessed a fast expansion, including new branches for Kabab and Curry in Santa Clara, and a modern dining experience in Cupertino. Our bold flavors have wowed our patrons and the first stop for culinary adventurists.",
   ]}
 />
 
-<BannerImageBg heading="Award-Winning Dining Experience" paragraph="Our restaurants have consistently been rated, reviewed and awarded for our culinary creativity and cozy ambiance." />
+<BannerImageBg
+  heading="Award-Winning Dining Experience"
+  paragraph="Our restaurants have consistently been rated, reviewed and awarded for our culinary creativity and cozy ambiance."
+/>
 
 <ViewMenusAlternate />
 
