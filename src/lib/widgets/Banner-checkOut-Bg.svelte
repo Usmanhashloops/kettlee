@@ -134,7 +134,7 @@
     }
     @media only screen and (min-width: 400px) and (max-width: 550px) {
       font-size: 28px !important;
-      margin-top: -5px !important;
+      margin-top: 2px !important;
     }
     // @include for-size(phone-only) {
     //   font-size: 40px !important;
